@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\title{3DViewer v1.0}
+\author{scrimgew, mirrorar, powersbe}
+
+\begin{document}
+\maketitle
+\section{Описание}
+Программа 3DViewer v1.0 выполняет построение каркасной модели по OBJ файлу. 
+К построенной модели можно применять аффинные преобразования (поворот, смещение, масштабирование)
+К модели можно применять настройки цвета (фона, вершин, линий) типа и размера вершин и линий, настройки сохраняются между запусками программы.
+Текущий вид модели можно сохранить в bmp/jpeg файле, а преобразования - в gif.
+
+
+\section{Инструкция}
+\begin{itemize}
+\item Для установки программы запустите \textbf{make install}, далее запустите программу скомпилированную в папке /build
+\item для создания архива выполните \textbf{make dist}
+\end{itemize}
+\end{document}
